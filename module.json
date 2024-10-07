@@ -116,12 +116,34 @@
       "system": "dnd5e"
     },
     {
+      "name": "egt-equipment-gm",
+      "label": "Equipment (GM Only)",
+      "path": "packs/egt-equipment-gm",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
       "name": "egt-actors",
       "label": "Actors",
       "path": "packs/egt-actors",
       "type": "Actor",
       "ownership": {
-        "PLAYER": "OBSERVER",
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "egt-adventure",
+      "label": "Telyndr Adventure",
+      "path": "packs/egt-adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e"
@@ -138,8 +160,17 @@
         "egt-origins",
         "egt-feats",
         "egt-spells",
-        "egt-actors",
         "egt-equipment"
+      ]
+    },
+    {
+      "name": "EGT - GM",
+      "color": "#7a14a9",
+      "sorting": "m",
+      "packs": [
+        "egt-actors",
+        "egt-adventure",
+        "egt-equipment-gm"
       ]
     }
   ],

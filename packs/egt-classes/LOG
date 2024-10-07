@@ -1,14 +1,3 @@
-2024/10/07-05:03:28.597 72a4 Recovering log #445
-2024/10/07-05:03:28.613 72a4 Delete type=0 #445
-2024/10/07-05:03:28.613 72a4 Delete type=3 #444
-2024/10/07-05:03:28.624 b48 Level-0 table #449: started
-2024/10/07-05:03:28.631 b48 Level-0 table #449: 74481 bytes OK
-2024/10/07-05:03:28.637 b48 Delete type=0 #447
-2024/10/07-05:03:28.637 b48 Manual compaction at level-0 from '!folders!egtgnbdirClsFeat' @ 72057594037927935 : 1 .. '!items.effects!egtshdRelTalent0.AnAo99NgCsOVf7T0' @ 0 : 0; will stop at '!items.effects!egtshdRelTalent0.AnAo99NgCsOVf7T0' @ 5420 : 1
-2024/10/07-05:03:28.637 b48 Compacting 1@0 + 1@1 files
-2024/10/07-05:03:28.644 b48 Generated table #450@0: 98 keys, 74481 bytes
-2024/10/07-05:03:28.644 b48 Compacted 1@0 + 1@1 files => 74481 bytes
-2024/10/07-05:03:28.651 b48 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/10/07-05:03:28.651 b48 Delete type=2 #441
-2024/10/07-05:03:28.651 b48 Delete type=2 #449
-2024/10/07-05:03:28.652 b48 Manual compaction at level-0 from '!items.effects!egtshdRelTalent0.AnAo99NgCsOVf7T0' @ 5420 : 1 .. '!items.effects!egtshdRelTalent0.AnAo99NgCsOVf7T0' @ 0 : 0; will stop at (end)
+2024/10/07-16:28:14.338 bd3c Recovering log #460
+2024/10/07-16:28:14.353 bd3c Delete type=0 #460
+2024/10/07-16:28:14.354 bd3c Delete type=3 #459
