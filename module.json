@@ -1,0 +1,158 @@
+{
+  "id": "dnd-explorers-guide-telyndr",
+  "title": "Explorer's Guide to Telyndr",
+  "description": "EGT. Description pending",
+  "authors": [
+    {
+      "name": "Dale Emasiri",
+      "discord": "badgr_",
+      "url": "https://foundryvtt.com"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-explorers-guide-telyndr/assets/egt-cover.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": [
+    "scripts/dnd-explorers-guide-telyndr.mjs"
+  ],
+  "styles": [
+    "styles/egt.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.2"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "egt-content",
+      "label": "Explorer's Guide to Telyndr",
+      "path": "packs/egt-content",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {
+      }
+    },
+    {
+      "name": "egt-classes",
+      "label": "Character Classes",
+      "path": "packs/egt-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+       "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "egt-origins",
+      "label": "Character Origins",
+      "path": "packs/origins",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "egt-feats",
+      "label": "Character Feats",
+      "path": "packs/egt-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "egt-spells",
+      "label": "Character Spells",
+      "path": "packs/egt-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "egt-equipment",
+      "label": "Character Equipment",
+      "path": "packs/egt-equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "egt-actors",
+      "label": "Actors",
+      "path": "packs/egt-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Explorer's Guide to Telyndr",
+      "color": "#7a14a9",
+      "sorting": "m",
+      "packs": [
+        "egt-content",
+        "egt-classes",
+        "egt-origins",
+        "egt-feats",
+        "egt-spells",
+        "egt-actors",
+        "egt-equipment"
+      ]
+    }
+  ],
+  "protected": false,
+  "flags": {
+    "hotReload": false,
+    "tokenRingSubjectMappings": {
+      "modules/dnd-explorers-guide-telyndr/assets/tokens/": "modules/dnd-explorers-guide-telyndr/assets/subjects/"
+    },
+    "dnd5e": {
+      "sourceBooks": {
+        "EGT": "SOURCE.BOOK.EGT"
+      }
+    }
+  }
+}
