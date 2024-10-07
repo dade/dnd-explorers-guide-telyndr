@@ -5,11 +5,14 @@ Some more stuff here soon...
 
 ### v1.0.1
 - Fixed minor issues with activities on items
-- Added "EGT - GM" Pack Folder to Compendium
+- Reworked some minor class content
+
+**Added**
+- "EGT - GM" Pack Folder to Compendium
     - Equipment (GM) Compendium created to keep special Artifacts and Legendary items secret
     - Actors moved to GM folder, and Ownership perms changed to remove player access
-    - Adventure Compendium created for eventual story/setting content, maps, and NPCs
-- Reworked some minor class content
+    - Adventure Compendium created for eventual story/setting content, maps, and NPCsa
+- Added new magic items
 
 ### v1.0.0
 - Initial release
