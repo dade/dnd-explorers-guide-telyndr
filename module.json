@@ -156,5 +156,5 @@
     }
   },
   "manifest": "https://raw.githubusercontent.com/dade/dnd-explorers-guide-telyndr/main/module.json",
-  "download": "https://github.com/dade/dnd-explorers-guide-telyndr/release/download/stable/dnd-explorers-guide-telyndr.zip"
+  "download": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/download/stable/dnd-explorers-guide-telyndr.zip"
 }
