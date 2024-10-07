@@ -1,7 +1,7 @@
 {
   "id": "dnd-explorers-guide-telyndr",
   "title": "Explorer's Guide to Telyndr",
-  "description": "EGT. Description pending",
+  "description": "The Explorer's Guide to Telyndr is a custom world and homebrew for D&D5e/2024 by Dale 'badgr' Emasiri, and is a world that has been in progress across mutliple campaigns for years.",
   "authors": [
     {
       "name": "Dale Emasiri",
@@ -17,7 +17,7 @@
       "flags": {}
     }
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -74,7 +74,7 @@
     {
       "name": "egt-origins",
       "label": "Character Origins",
-      "path": "packs/origins",
+      "path": "packs/egt-origins",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
