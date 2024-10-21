@@ -3,6 +3,10 @@ Some more stuff here soon...
 
 ## Changelog
 
+### v1.0.3
+- Added start of new Class and Subclass. This is WIP!
+- Fixed minor issues with effects and armors
+
 ### v1.0.1
 - Fixed minor issues with activities on items
 - Reworked some minor class content

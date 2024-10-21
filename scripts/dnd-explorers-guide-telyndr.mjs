@@ -39,7 +39,7 @@ Hooks.once("ready", async () => {
 
   if (foundry.utils.isNewerVersion(currentVersion, lastVersion)) {
     const journal = await fromUuid("Compendium.dnd-explorers-guide-telyndr.egt-content.JournalEntry.egtChangelog0000")
-    const page = journal.pages.contents[journal.pages.content.length - 1]
+    const page = journal.pages.contents[journal.pages.contents.length - 1]
     journal.sheet.render(true, { pageId: page.id })
     game.settings.get("dnd-explorers-guide-telyndr", "lastVersion", currentVersion)
   }
@@ -91,7 +91,14 @@ Hooks.once("ready", async () => {
     ])
   })
 
+  dnd5e.damageTypes.unholy = {
+    icon: "systems/dnd5e/icons/svg/schools/conjuration.svg",
+    label: "Unholy",
+    reference: "Compendium.dnd-explorers-guide-telyndr.egt-content.JournalEntry.De4u0WBrqJMiGogc.JournalEntryPage.6IFM5uNykfCyNsPI"
+  }
+
   dnd5e.featureTypes.class.subtypes.flourish = "Gunbreaker Flourish"
+  dnd5e.featureTypes.class.subtypes.tattoos = "Tattoos"
 })
 
   // dnd5e.weaponProficienciesMap = Object.assign({}, dnd5e.weaponProficienciesMap, {
