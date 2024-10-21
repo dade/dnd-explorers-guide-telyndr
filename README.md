@@ -3,6 +3,9 @@ Some more stuff here soon...
 
 ## Changelog
 
+### v1.0.4
+- Fixed Gunbreaker proficiencies
+
 ### v1.0.3
 - Added start of new Class and Subclass. This is WIP!
 - Fixed minor issues with effects and armors
