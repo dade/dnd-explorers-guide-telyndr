@@ -17,7 +17,7 @@
       "flags": {}
     }
   ],
-  "version": "1.0.4",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -186,6 +186,6 @@
       }
     }
   },
-  "manifest": "https://raw.githubusercontent.com/dade/dnd-explorers-guide-telyndr/main/module.json",
-  "download": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/download/stable/dnd-explorers-guide-telyndr.zip"
+  "manifest": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/latest/download/modules.json",
+  "download": "https://github.com/dade/dnd-explorers-guide-telyndr/archive/1.1.0.zip"
 }

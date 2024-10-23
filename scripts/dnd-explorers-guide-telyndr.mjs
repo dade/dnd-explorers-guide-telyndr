@@ -41,7 +41,7 @@ Hooks.once("ready", async () => {
     const journal = await fromUuid("Compendium.dnd-explorers-guide-telyndr.egt-content.JournalEntry.egtChangelog0000")
     const page = journal.pages.contents[journal.pages.contents.length - 1]
     journal.sheet.render(true, { pageId: page.id })
-    game.settings.get("dnd-explorers-guide-telyndr", "lastVersion", currentVersion)
+    game.settings.set("dnd-explorers-guide-telyndr", "lastVersion", currentVersion)
   }
   
   // TODO: Refactor these. Not all of them need the mergeObject function, assigment works fine
@@ -99,54 +99,23 @@ Hooks.once("ready", async () => {
 
   dnd5e.featureTypes.class.subtypes.flourish = "Gunbreaker Flourish"
   dnd5e.featureTypes.class.subtypes.tattoos = "Tattoos"
-})
+  
+  let dndlang = dnd5e.languages.standard.children
+  let dndexlang = dnd5e.languages.exotic.children
+  // Standard Language overwrites...
+  dndlang.common = "Telyndran (Common)"
+  dndexlang.undercommon = "Vesayan (Undercommon)"
+  dndlang.elvish = "Sel'ryr (Elvish)"
 
-  // dnd5e.weaponProficienciesMap = Object.assign({}, dnd5e.weaponProficienciesMap, {
-  //   advM: "adv",
-  //   advR: "adv"
-  // })
-  //
-  // dnd5e.weaponTypeMap = Object.assign({}, dnd5e.weaponTypeMap, {
-  //   advM: "melee",
-  //   advR: "ranged"
-  // })
-  //
-  // dnd5e.weaponTypes = Object.assign({}, dnd5e.weaponTypes, {
-  //   advM: "Advanced Melee",
-  //   advR: "Advanced Ranged"
-  // })
-  //
-  // dnd5e.weaponProficiencies = Object.assign({}, dnd5e.weaponProficiencies, {
-  //   adv: "Advanced Weapons"
-  // })
-  //
-  // /** Base Weapon Types **/
-  // dnd5e.weaponIds = Object.assign({}, dnd5e.weaponIds, {
-  //   gunblade: "Compendium.dnd-explorers-guide-telyndr.egt-equipment.Item.egtwpnGunblade00"
-  // })
-  //
-  // /** Create our own ammo definition **/
-  // dnd5e.consumableTypes.ammo.subtypes = Object.assign({}, dnd5e.consumableTypes.ammo.subtypes, {
-  //   gunbladeShell: "Shell, Gunblade"
-  // })
-  //
-  // /** Feature Types **/
-  // dnd5e.featureTypes.class.subtypes = Object.assign({}, dnd5e.featureTypes.class.subtypes, {
-  //   flourish: "Gunbreaker Flourish"
-  // })
-  //
-  // dnd5e.itemProperties = Object.assign({}, dnd5e.itemProperties, {
-  //   chamber: {
-  //     label: "Chamber",
-  //     isPhysical: true
-  //   }
-  // })
-  // 
-  // let dnd5eprops = dnd5e.validProperties
-  // dnd5eprops.weapon.add("chamber")
-  //
-  // dnd5eprops = Object.assign({}, dnd5eprops, {
-  //   weapon: Set([
-  //     ...dnd5eprops.weapon
-  //   ])
-  // })
+  foundry.utils.mergeObject(dndlang, {
+    leonid: "Leonid",
+    ursi: "Ursid",
+    veldanekn: "Vedalken",
+  })
+
+  foundry.utils.mergeObject(dndexlang, {
+    avariel: "Sel'ori (Avariel)",
+    elvsign: "Sel'jurani (Elvish Sign Language)",
+    xuyan: "Xuyan"
+  })
+})

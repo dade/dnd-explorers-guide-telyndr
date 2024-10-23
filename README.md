@@ -3,23 +3,30 @@ Some more stuff here soon...
 
 ## Changelog
 
-### v1.0.4
-- Fixed Gunbreaker proficiencies
+### v1.1.0
+#### Fixed
+- Item and Feature settings
+    - Item types
+    - Effects
+    - Properties
+    - Feature types
+- **Gunbreaker Class**
+    - Removed Heavy armor from 1st level proficiencies
+    - Re-balanced damage values
+    - Updated effects
+- Wrongly showing Changelog when versin did not change
 
-### v1.0.3
-- Added start of new Class and Subclass. This is WIP!
-- Fixed minor issues with effects and armors
+#### Added
+- Shadowstrider class
+- Maven (Druid subclass)
+- New items (GM-only compendium)
+- NPC traits for quick NPC creation so that vocab from Monster Features did not require editing
+- "Unholy" damage type
+- Telyndr-specific languages
+    - Includes renaming of standard D&D 2024 languages
 
-### v1.0.1
-- Fixed minor issues with activities on items
-- Reworked some minor class content
-
-**Added**
-- "EGT - GM" Pack Folder to Compendium
-    - Equipment (GM) Compendium created to keep special Artifacts and Legendary items secret
-    - Actors moved to GM folder, and Ownership perms changed to remove player access
-    - Adventure Compendium created for eventual story/setting content, maps, and NPCsa
-- Added new magic items
+#### Campaign Setting
+- New Adventure package created for lore information (initial release of adventure)
 
 ### v1.0.0
 - Initial release
