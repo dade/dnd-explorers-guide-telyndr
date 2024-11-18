@@ -1,12 +1,13 @@
 {
   "id": "dnd-explorers-guide-telyndr",
   "title": "Explorer's Guide to Telyndr",
-  "description": "The Explorer's Guide to Telyndr is a custom world and homebrew for D&D5e/2024 by Dale 'badgr' Emasiri, and is a world that has been in progress across mutliple campaigns for years.",
+  "description": "The Explorer's Guide to Telyndr is a custom world and homebrew for D&amp;D5e/2024 by Dale 'badgr' Emasiri, and is a world that has been in progress across mutliple campaigns for years.",
   "authors": [
     {
       "name": "Dale Emasiri",
       "discord": "badgr_",
-      "url": "https://foundryvtt.com"
+      "url": "https://foundryvtt.com",
+      "flags": {}
     }
   ],
   "media": [
@@ -17,7 +18,7 @@
       "flags": {}
     }
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -32,7 +33,8 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -57,8 +59,7 @@
         "ASSISTANT": "OWNER"
       },
       "system": "dnd5e",
-      "flags": {
-      }
+      "flags": {}
     },
     {
       "name": "egt-classes",
@@ -67,9 +68,10 @@
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
-       "ASSISTANT": "OWNER"
+        "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-origins",
@@ -80,7 +82,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-feats",
@@ -91,7 +94,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-spells",
@@ -102,7 +106,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-equipment",
@@ -113,7 +118,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-equipment-gm",
@@ -124,7 +130,8 @@
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-actors",
@@ -135,7 +142,8 @@
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     },
     {
       "name": "egt-adventure",
@@ -146,7 +154,8 @@
         "PLAYER": "NONE",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -161,7 +170,8 @@
         "egt-feats",
         "egt-spells",
         "egt-equipment"
-      ]
+      ],
+      "folders": []
     },
     {
       "name": "EGT - GM",
@@ -171,10 +181,10 @@
         "egt-actors",
         "egt-adventure",
         "egt-equipment-gm"
-      ]
+      ],
+      "folders": []
     }
   ],
-  "protected": false,
   "flags": {
     "hotReload": false,
     "tokenRingSubjectMappings": {
@@ -186,6 +196,6 @@
       }
     }
   },
-  "manifest": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/latest/download/module.json",
-  "download": "https://github.com/dade/dnd-explorers-guide-telyndr/archive/1.1.0.zip"
+  "manifest": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/latest/download/modules.json",
+  "download": "https://github.com/dade/dnd-explorers-guide-telyndr/archive/1.1.1.zip"
 }

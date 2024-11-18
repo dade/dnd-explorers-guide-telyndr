@@ -3,6 +3,10 @@ Some more stuff here soon...
 
 ## Changelog
 
+### v1.1.1
+#### New
+- Added maps & encounters to the Campaign Setting/Adventure module
+
 ### v1.1.0
 #### Fixed
 - Item and Feature settings
@@ -16,7 +20,7 @@ Some more stuff here soon...
     - Updated effects
 - Wrongly showing Changelog when versin did not change
 
-#### Added
+#### New
 - Shadowstrider class
 - Maven (Druid subclass)
 - New items (GM-only compendium)

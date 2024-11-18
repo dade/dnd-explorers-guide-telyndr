@@ -1,5 +1,3 @@
-2024/10/23-15:45:20.704 fb18 Recovering log #65
-2024/10/23-15:45:20.705 fb18 Level-0 table #67: started
-2024/10/23-15:45:20.719 fb18 Level-0 table #67: 2261 bytes OK
-2024/10/23-15:45:20.735 fb18 Delete type=0 #65
-2024/10/23-15:45:20.735 fb18 Delete type=3 #64
+2024/11/18-22:14:31.820 23fcc Recovering log #90
+2024/11/18-22:14:31.846 23fcc Delete type=0 #90
+2024/11/18-22:14:31.846 23fcc Delete type=3 #89
