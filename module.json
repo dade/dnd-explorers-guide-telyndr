@@ -18,17 +18,13 @@
       "flags": {}
     }
   ],
-  "version": "1.1.1",
+  "version": "1.1.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
-  "esmodules": [
-    "scripts/dnd-explorers-guide-telyndr.mjs"
-  ],
-  "styles": [
-    "styles/egt.css"
-  ],
+  "esmodules": ["scripts/dnd-explorers-guide-telyndr.mjs"],
+  "styles": ["styles/egt.css"],
   "languages": [
     {
       "lang": "en",
@@ -177,11 +173,7 @@
       "name": "EGT - GM",
       "color": "#7a14a9",
       "sorting": "m",
-      "packs": [
-        "egt-actors",
-        "egt-adventure",
-        "egt-equipment-gm"
-      ],
+      "packs": ["egt-actors", "egt-adventure", "egt-equipment-gm"],
       "folders": []
     }
   ],
@@ -196,6 +188,6 @@
       }
     }
   },
-  "manifest": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/latest/download/modules.json",
+  "manifest": "https://github.com/dade/dnd-explorers-guide-telyndr/releases/latest/download/module.json",
   "download": "https://github.com/dade/dnd-explorers-guide-telyndr/archive/1.1.1.zip"
 }

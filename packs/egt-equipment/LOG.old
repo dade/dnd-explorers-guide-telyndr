@@ -1,3 +1,8 @@
-2024/11/18-19:06:45.265 1d284 Recovering log #329
-2024/11/18-19:06:45.280 1d284 Delete type=0 #329
-2024/11/18-19:06:45.281 1d284 Delete type=3 #327
+2024/11/20-17:11:28.739 27ed8 Recovering log #347
+2024/11/20-17:11:28.754 27ed8 Delete type=0 #347
+2024/11/20-17:11:28.755 27ed8 Delete type=3 #345
+2024/11/20-17:12:48.820 2834c Level-0 table #352: started
+2024/11/20-17:12:48.820 2834c Level-0 table #352: 0 bytes OK
+2024/11/20-17:12:48.826 2834c Delete type=0 #350
+2024/11/20-17:12:48.847 2834c Manual compaction at level-0 from '!folders!m5Sdylkr9ZcYAGoh' @ 72057594037927935 : 1 .. '!items!egtwpnGunblade00' @ 0 : 0; will stop at (end)
+2024/11/20-17:12:48.847 2834c Manual compaction at level-1 from '!folders!m5Sdylkr9ZcYAGoh' @ 72057594037927935 : 1 .. '!items!egtwpnGunblade00' @ 0 : 0; will stop at (end)
